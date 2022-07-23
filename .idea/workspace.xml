@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="65705973-92c8-4515-9e35-094461f1a4cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/app/ReadWriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/args/Arguments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/codes/ExitCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/content/Contents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/content/ContentsCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/content/DefaultContentsCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/example/ReadMe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/example/multipleTarget/ExampleContentsCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/example/multipleTarget/ExampleMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/example/multipleTarget/ExampleTargetFileRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/example/singleTarget/ExampleMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/exception/ArgumentsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/exception/ContentsCreateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/exception/ContentsEmptyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/exception/ReadWriteFileException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/exception/SourceFileNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/exception/SourceFileOperationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/exception/TargetFileFlushException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/exception/TargetFileInitializeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/io/Elements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/io/SourceFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/io/TargetFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/io/TargetFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/rule/DefaultRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/rule/Rule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/jeyeihro/readwritefile/rule/Rules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/jeyeihro/readwritefile/app/ReadWriteFileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/jeyeihro/readwritefile/args/ArgumentsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/jeyeihro/readwritefile/codes/ExitCodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/jeyeihro/readwritefile/content/ContentsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/jeyeihro/readwritefile/content/DefaultContentsCreatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/jeyeihro/readwritefile/example/ReadMeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/jeyeihro/readwritefile/example/multipleTarget/ExampleMainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/jeyeihro/readwritefile/example/singleTarget/ExampleMainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/jeyeihro/readwritefile/exception/ArgumentsExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/jeyeihro/readwritefile/exception/ContentsCreateExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/jeyeihro/readwritefile/exception/ContentsEmptyExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/jeyeihro/readwritefile/exception/ReadWriteFileExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/jeyeihro/readwritefile/exception/SourceFileNotFoundExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/jeyeihro/readwritefile/exception/SourceFileOperationExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/jeyeihro/readwritefile/exception/TargetFileFlushExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/jeyeihro/readwritefile/exception/TargetFileInitializeExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/jeyeihro/readwritefile/io/ElementsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/jeyeihro/readwritefile/io/SourceFileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/jeyeihro/readwritefile/io/TargetFileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/jeyeihro/readwritefile/rule/RulesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/DefaultContentsCreatorTest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2BLcaUC6WXa7G5Gz7oveX4wdR0T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/ideaws/read-write-file/src/main/java/com/github/jeyeihro/readwritefile/example/singleTarget&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.github.jeyeihro.readwritefile.exception" />
+      <recent name="com.github.jeyeihro.readwritefile.rule" />
+      <recent name="com.github.jeyeihro.readwritefile.io" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ideaws\read-write-file\src\main\java\com\github\jeyeihro\readwritefile\example\singleTarget" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.github.jeyeihro.readwritefile.example.multipleTarget" />
+      <recent name="com.github.jeyeihro.readwritefile.example" />
+      <recent name="com.github.jeyeihro.readwritefile.codes" />
+      <recent name="com.github.jeyeihro.readwritefile.content" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.github.jeyeihro.readwritefile.example.multipleTarget" />
+      <recent name="com.github.jeyeihro.readwritefile.example.singleTarget" />
+      <recent name="com.github.jeyeihro.readwritefile.example" />
+      <recent name="com.github.jeyeihro.readwritefile.rule" />
+      <recent name="com.github.jeyeihro.readwritefile.io" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.jeyeihro.readwritefile.content" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle run --debug" />
+      <command value="gradle run --scan" />
+      <command value="gradle run --stacktrace" />
+      <command value="gradle run --args=&quot;aiueo&quot;" />
+      <command value="gradle run --args=&quot;C:\Users\user\Desktop\tesssssssssssssst.txt&quot; --stacktrace" />
+      <command value="gradle run --args=&quot;C:\Users\user\Desktop\tesssssssssssssst.txt&quot;" />
+      <command value="gradle run" />
+      <command value="gradle run --args=&quot;C:\Users\user\Desktop\test.txt&quot;" />
+      <command value="gradle javadoc" />
+      <command value="gradle test" />
+      <command value="gradle build" />
+      <command value="gradle installDist" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.read-write-file [installDist]">
+    <configuration name="ElementsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.github.jeyeihro.readwritefile.io.ElementsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="read-write-file [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="read-write-file [installDist]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="installDist" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="read-write-file [javadoc]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="javadoc" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="read-write-file [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.read-write-file [installDist]" />
+        <item itemvalue="Gradle.read-write-file [javadoc]" />
+        <item itemvalue="Gradle.ElementsTest" />
+        <item itemvalue="Gradle.read-write-file [test]" />
+        <item itemvalue="Gradle.read-write-file [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65705973-92c8-4515-9e35-094461f1a4cf" name="Changes" comment="" />
+      <created>1656688873233</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656688873233</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/read_write_file$ElementsTest.ic" NAME="ElementsTest Coverage Results" MODIFIED="1658408999946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
